@@ -1,0 +1,35 @@
+/* #xxx {
+    display: block;
+    background: greenyellow;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    background: yellow;
+}
+
+.actions button {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.actions #brush {
+    display: none;
+}
+
+.actions #eraser {
+    display: inline-block;
+}
+
+.actions.x #brush {
+    display: inline-block;
+}
+
+.actions.x #eraser {
+    display: none;
+}
